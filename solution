@@ -1,0 +1,19 @@
+    #include <iostream>
+    using namespace std;
+     
+    int main()
+    {
+        //cout << "Hello World!" << endl;
+        long int n,sum=0,i,s=0;
+        cin>>n;
+        for(i=1;i<=n;i++)
+        {
+            if((i%2)==0)
+            {
+                sum=sum+i;
+            }
+            else s=s+i;
+        }
+        cout<<s<<" "<<sum;
+        return 0;
+    }
