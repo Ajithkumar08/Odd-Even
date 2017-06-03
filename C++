@@ -1,0 +1,17 @@
+#include <iostream> //header file for including cout cin
+using namespace std;     
+    int main()
+    {
+        long int n,sum=0,i,s=0;
+        cin>>n; //getting the n number
+        for(i=1;i<=n;i++)
+        {
+            if((i%2)==0)
+            {
+                sum=sum+i;  //for finding sum of even number
+            }
+            else s=s+i;  //for finding sum of odd number
+        }
+        cout<<s<<" "<<sum; //displaying the output
+        return 0;
+}
